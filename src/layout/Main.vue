@@ -4,10 +4,9 @@
 
     <ul>
       <li>
-        <nav-tab href="/">Home</nav-tab>
-        <nav-tab href="/foo">Foo</nav-tab>
-        <nav-tab href="/bar">Bar</nav-tab>
-        <nav-tab href="/about">About</nav-tab>
+        <nav-link href="/">Home</nav-link>
+        <nav-link href="/foo">Foo</nav-link>
+        <nav-link href="/about">About</nav-link>
       </li>
     </ul>
 
@@ -17,11 +16,11 @@
 
 
 <script>
-  import NavTab from '../components/NavTab.vue'
+  import NavLink from '../components/NavLink.vue'
 
   export default {
     components: {
-      NavTab
+      NavLink
     }
   }
 </script>
