@@ -1,4 +1,4 @@
-# vue-static
+# vue-static-starter
 
 > A Vue.js starter project for static website
 
